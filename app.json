@@ -8,8 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
-    },
+      "value": "{\"noiseKey\":{\"private\":{\"type\":\"Buffer\",\"data\":\"0EigYbyZU6kjGfbC4zQbBgXhYtdx1mYNpuaeKZJ711U=\"},\"public\":{\"type\":\"Buffer\",\"data\":\"BYY13L/3JwYr7abf9jQEDCOYDPc695I2BnHMgRdjvCU=\"}},\"pairingEphemeralKeyPair\":{\"private\":{\"type\":\"Buffer\",\"data\":\"sDZ2vo/yVGTJV/ZZkVCTeVCWYRAgCDJW7qBaI8MHXXA=\"},\"public\":{\"type\":\"Buffer\",\"data\":\"XQidAkhzpT+FHh5f2cc9/MpEp/5zQojg8oqEamKMYW4=\"}},\"signedIdentityKey\":{\"private\":{\"type\":\"Buffer\",\"data\":\"SFMATbHuAc2PFKSBNaO90/oD5aRm8Mo0/ZunLrFsFH8=\"},\"public\":{\"type\":\"Buffer\",\"data\":\"WyJE41FtwLruYB+bjhjEYKkbhzdp1+kBn25nSHxOVHs=\"}},\"signedPreKey\":{\"keyPair\":{\"private\":{\"type\":\"Buffer\",\"data\":\"GFGuX7csFmRMzRBxVECEmYKMRWpJCkTRCCDSBUonIGs=\"},\"public\":{\"type\":\"Buffer\",\"data\":\"G/tAwE6tJ0gHnlqAM8asot5OVoZBHRWGhWtsORQQD14=\"}},\"signature\":{\"type\":\"Buffer\",\"data\":\"E0TJAEy/stk89JqfkO1DIi/tqPD6Top+ThdOgFJ8Scvkuhbe1+4XDVhN9OQD1KI4ECp3j9tf3Ozj6q6IymVAiA==\"},\"keyId\":1},\"registrationId\":116,\"advSecretKey\":\"GiwCO9KN81D5ZoicvNSmgt2Poohs/yr/S0qwDrawSyg=\",\"processedHistoryMessages\":[],\"nextPreKeyId\":31,\"firstUnuploadedPreKeyId\":31,\"accountSyncCounter\":0,\"accountSettings\":{\"unarchiveChats\":false},\"deviceId\":\"chlpLNZtThqZ9cYUxaExsQ\",\"phoneId\":\"8573f280-a09f-4ff3-992c-a202d2aa283b\",\"identityId\":{\"type\":\"Buffer\",\"data\":\"UxW85UiddjUyi7IS51FSuwakZ4E=\"},\"registered\":true,\"backupToken\":{\"type\":\"Buffer\",\"data\":\"KuZiJcOtU5yep/+zmahDCuPiqnw=\"},\"registration\":{},\"pairingCode\":\"CZ1M6Z87\",\"me\":{\"id\":\"2348086722798:6@s.whatsapp.net\"},\"account\":{\"details\":\"CM7h26AFEP2kicAGGAYgACgA\",\"accountSignatureKey\":\"7TfEsSVkhEouA4PVa6sKo9/6SbAVanpziaH/Y9tTSVU=\",\"accountSignature\":\"KTiQM/+8CGtxkFY5c2vD+SA7jzpd2PY/xaNjtKmma6NSA3mK8qzQpoFrYla0Rgtyym/8aJygH3t+Owp0gkkaBQ==\",\"deviceSignature\":\"gl0Ng4ta6QpgkMQNN4P6VX+hu5IKaQns6xJt8p2Fpfg4LJI0cbKJ9mZkMksYcGf7ASoateAK6evxUQA4TCGkjA==\"},\"signalIdentities\":[{\"identifier\":{\"name\":\"2348086722798:6@s.whatsapp.net\",\"deviceId\":0},\"identifierKey\":{\"type\":\"Buffer\",\"data\":\"Be03xLElZIRKLgOD1WurCqPf+kmwFWp6c4mh/2PbU0lV\"}}],\"platform\":\"android\",\"lastAccountSyncTimestamp\":1744982667}"
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
       "value": "."
@@ -26,7 +25,7 @@
     },
     "AUTO_VIEW_STATUS": {
       "description": "Auto-view saved WhatsApp statuses.",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "CHATBOT": {
@@ -41,11 +40,11 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "2348086722798"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "AUTHOR": {
       "description": "Put Sticker Pack Author_Name.",
